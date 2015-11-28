@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/bg_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Journey Timer:"
+        android:textSize="20dp"
+        android:textColor="@color/text_timer"/>
+
+    <TextView
+        android:id="@+id/timerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pauseButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="40sp"
+        android:textColor="@color/text_timer"
+        android:text="00:00:000" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_centerVertical="true"
+        android:background="@color/btns_timer"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:text="Start Journey" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_alignBaseline="@+id/startButton"
+        android:layout_alignBottom="@+id/startButton"
+        android:background="@color/btns_timer"
+        android:textColor="@color/white"
+        android:text="Stop Journey" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Max Acceleration:"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/text_timer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Max Acceleration: X-Axis"
+        android:textSize="15dp"
+        android:textColor="@color/text_timer"/>
+
+
+    <TextView
+        android:id="@+id/maxX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0.0"
+        android:textSize="20dp"
+        android:textColor="@color/text_timer"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Max Acceleration: Y-Axis"
+        android:textSize="15dp"
+        android:textColor="@color/text_timer"/>
+
+    <TextView
+        android:id="@+id/maxY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="0.0"
+        android:textSize="20dp"
+        android:textColor="@color/text_timer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Max Acceleration: Z-Axis"
+        android:textSize="15dp"
+        android:textColor="@color/text_timer"/>
+
+    <TextView
+        android:id="@+id/maxZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0.0"
+        android:textSize="20dp"
+        android:textColor="@color/text_timer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Recent Location:"
+        android:textSize="15dp"
+        android:textColor="@color/text_timer"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/latitudeCap"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_marginLeft="100dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="0.00000"
+            android:textColor="@color/text_timer"/>
+
+        <TextView
+            android:id="@+id/longitudeCap"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_marginRight="75dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="0.00000"
+            android:textColor="@color/text_timer"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

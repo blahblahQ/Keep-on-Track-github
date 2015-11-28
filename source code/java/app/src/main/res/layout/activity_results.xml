@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/restitletextView"
+            android:text="Results:"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resTopScoretextView"
+            android:text="Top Score:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TopScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resAvgScoretextView"
+            android:text="Average Score:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/AvgScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resJourneyCounttextView"
+            android:text="Journey Count:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/JourneyCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ResultsText"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/lbl_name"/>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Results"
+        android:id="@+id/DisplayResultsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>

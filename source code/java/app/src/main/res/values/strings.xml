@@ -1,0 +1,57 @@
+<resources>
+<string name="app_name">Keep On Track</string>
+
+<!-- Strings related to login -->
+<string name="prompt_email">Email</string>
+<string name="prompt_password">Password (optional)</string>
+<string name="action_sign_in">Sign in or register</string>
+<string name="action_sign_in_short">Sign in</string>
+<string name="error_invalid_email">This email address is invalid</string>
+<string name="error_invalid_password">This password is too short</string>
+<string name="error_incorrect_password">This password is incorrect</string>
+<string name="error_field_required">This field is required</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- <string name="app_name">Keep_On_Track_v1.0</string> -->
+<string name="hint_email">KeepOnTrack@gmail.com</string>
+<string name="hint_password">Password</string>
+<string name="hint_name">John Smith</string>
+<string name="hint_policy">123abc</string>
+<string name="hint_username">JohnSmith123</string>
+<string name="btn_login">LOGIN</string>
+
+    <string name="Login_Title">Keep On Track</string>
+<string name="Login_Email_Title">Email:</string>
+<string name="Login_Password_Title">Password:</string>
+
+    <string name="Register_Name">Name:</string>
+    <string name="Register_UserName">Username:</string>
+    <string name="Register_PolicyNo">Policy Number:</string>
+    <string name="Register_Email">Email:</string>
+    <string name="Register_Password">Password:</string>
+
+    <string name="btn_journey">START JOURNEY</string>
+    <string name="btn_settings">SETTINGS</string>
+    <string name="btn_results">RESULTS</string>
+
+    <string name="Forgot_Email">Email:</string>
+    <string name="Forgot_Password1">Password:</string>
+    <string name="Forgot_Password2">Retype Password:</string>
+    <string name="Forgot_Text">You seem to have misplaced something... Please type in your Email and new Password and we will do the rest:</string>
+
+
+<string name="btn_register">REGISTER</string>
+<string name="btn_link_to_register">Not a member? Sign up now.</string>
+<string name="btn_link_to_login">Already registred? Log me in.</string>
+<string name="welcome">Welcome</string>
+<string name="btn_logout">LOGOUT</string>
+<string name="name">Fullname</string>
+<string name="username">Username</string>
+<string name="policy">Policy number</string>
+
+<string name="ResultsText">The results shown are represent how safe you have driven on the given journey. The score (between 0 and 100) gives you an understanding of how you progressed along your route. \n\n-> Between 0->50 = Unsafe Driving. Harsh acceleration, turning speed and progression. \n-> Between 50-75 = Okay, room for improvement. \n-> Between 75-100 = Good driving with safe progression.</string>
+
+</resources>
