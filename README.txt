@@ -1,7 +1,6 @@
 /***********************************************************
 // README file
 // Name: cian rafferty
-// ucd id: 11346101
 //
 // Description: This readme provides an overview description of 
 //              the different bits of code that I did and helped 
